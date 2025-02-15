@@ -10,9 +10,10 @@ CIDRScope is a versatile command-line tool designed to help penetration testers 
   <h4>In-Scope Filtering:</h4> Filters resolved IPs to only show those that fall within the provided CIDR ranges.
   <h4>Output Options:</h4> Option to output results to a file and/or display them on the terminal.
   <h4>bug Mode:</h4> Includes detailed debug information to help troubleshoot and understand the tool's operation.
+  
 
-Installation
-Prerequisites
+<h2>Installation</h2>
+<h4>Prerequisites</h4>
 
     Python 3.6 or higher
     
