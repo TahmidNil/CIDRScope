@@ -63,6 +63,23 @@ python cidr_scope.py -f range.txt -s subdomains.txt -o results.txt
 ```
 python cidr_scope.py -i -s subdomains.txt
 ```
+<h2>Example Output</h2>
+
+<h4>Example terminal output when running the tool:</h4>
+
+```
+In-scope Subdomains and IPs:
+subdomain1.example.com: 192.168.1.1
+subdomain2.example.com: 192.168.2.2
+subdomain3.example.com: 192.168.3.3
+```
+<h4>Example of the output file `(results.txt)`:</h4>
+
+```
+subdomain1.example.com: 192.168.1.1
+subdomain2.example.com: 192.168.2.2
+subdomain3.example.com: 192.168.3.3
+```
 
 <h2>Contributing</h2>
 
