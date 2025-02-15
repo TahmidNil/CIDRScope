@@ -25,15 +25,15 @@ You can install the required Python dependencies using pip:
 ```
 pip install -r requirements.txt
 ```
-Clone the Repository
+<h4>Clone the Repository</h4>h4>
 
 Clone the CIDRScope repository to your local machine:
 ```
 git clone https://github.com/yourusername/CIDRScope.git
 cd CIDRScope
 ```
-Usage
-Basic Command
+<h2>Usage</h2>
+<h4>Basic Command</h4>
 
 ```
 python cidr_scope.py
