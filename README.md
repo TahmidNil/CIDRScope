@@ -49,17 +49,21 @@ python cidr_scope.py
 <h2>Example</h2>
 
   <h4>1. Resolve subdomains and filter in-scope IPs:</h4>
+  
 ```
 python cidr_scope.py -f range.txt -s subdomains.txt
 ```
  <h4>2. Save the result to a file and view output on terminal:</h4>
+ 
 ```
 python cidr_scope.py -f range.txt -s subdomains.txt -o results.txt
 ```
  <h4>3. Manually input CIDR ranges:</h4>
+ 
 ```
 python cidr_scope.py -i -s subdomains.txt
 ```
-Contributing
+
+<h2>Contributing</h2>
 
 We welcome contributions! Please fork the repository, create a new branch, and submit a pull request for any changes or improvements.
