@@ -73,7 +73,7 @@ subdomain1.example.com: 192.168.1.1
 subdomain2.example.com: 192.168.2.2
 subdomain3.example.com: 192.168.3.3
 ```
-<h4>Example of the output file `(results.txt)`:</h4>
+<h4>Example of the output file `(results.txt)` :</h4>
 
 ```
 subdomain1.example.com: 192.168.1.1
