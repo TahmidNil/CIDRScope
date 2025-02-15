@@ -1,4 +1,4 @@
-CIDRScope
+<h1>CIDRScope</h1>
 
 CIDRScope is a versatile command-line tool designed to help penetration testers and security researchers resolve subdomains and filter them based on given CIDR IP ranges. It allows you to easily manage IP ranges and subdomains, perform resolution, and check if the resolved IPs fall within specified CIDR ranges.
 Features
