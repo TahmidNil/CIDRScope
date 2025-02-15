@@ -25,7 +25,7 @@ You can install the required Python dependencies using pip:
 ```
 pip install -r requirements.txt
 ```
-<h4>Clone the Repository</h4>h4>
+<h2>Clone the Repository</h2>
 
 Clone the CIDRScope repository to your local machine:
 ```
@@ -38,7 +38,7 @@ cd CIDRScope
 ```
 python cidr_scope.py
 ```
-Options
+<h2>Options</h2>
 
     -h, --help : Show the help message and available options.
     -o <output_file> : Specify a file to output the results.
@@ -46,17 +46,17 @@ Options
     -f <cidr_file> : Load CIDR ranges from a file.
     -s <subdomain_file> : Load subdomains from a file.
 
-Example
+<h2>Example</h2>
 
-  1. Resolve subdomains and filter in-scope IPs:
+  <h4>1. Resolve subdomains and filter in-scope IPs:</h4>
 ```
 python cidr_scope.py -f range.txt -s subdomains.txt
 ```
- 2. Save the result to a file and view output on terminal:
+ <h4>2. Save the result to a file and view output on terminal:</h4>
 ```
 python cidr_scope.py -f range.txt -s subdomains.txt -o results.txt
 ```
- 3. Manually input CIDR ranges:
+ <h4>3. Manually input CIDR ranges:</h4>
 ```
 python cidr_scope.py -i -s subdomains.txt
 ```
