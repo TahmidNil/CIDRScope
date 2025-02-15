@@ -3,13 +3,13 @@
 CIDRScope is a versatile command-line tool designed to help penetration testers and security researchers resolve subdomains and filter them based on given CIDR IP ranges. It allows you to easily manage IP ranges and subdomains, perform resolution, and check if the resolved IPs fall within specified CIDR ranges.
 
 
-<h2>Features</h2>h2>
+<h2>Features</h2>
 
-  <h3>CIDR Range Input:</h3> Allows you to either manually input CIDR ranges or load them from a file.
-  <h3>Subdomain Resolution:</h3> Resolves subdomains using dnsprobe or nslookup and outputs associated IP addresses.
-  <h3>In-Scope Filtering:</h3> Filters resolved IPs to only show those that fall within the provided CIDR ranges.
-  <h3>Output Options:</h3> Option to output results to a file and/or display them on the terminal.
-  <h3>bug Mode:</h3> Includes detailed debug information to help troubleshoot and understand the tool's operation.
+  <h4>CIDR Range Input:</h4> Allows you to either manually input CIDR ranges or load them from a file.
+  <h4>Subdomain Resolution:</h4> Resolves subdomains using dnsprobe or nslookup and outputs associated IP addresses.
+  <h4>In-Scope Filtering:</h4> Filters resolved IPs to only show those that fall within the provided CIDR ranges.
+  <h4>Output Options:</h4> Option to output results to a file and/or display them on the terminal.
+  <h4>bug Mode:</h4> Includes detailed debug information to help troubleshoot and understand the tool's operation.
 
 Installation
 Prerequisites
