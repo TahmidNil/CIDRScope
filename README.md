@@ -13,9 +13,11 @@ Installation
 Prerequisites
 
     Python 3.6 or higher
-    dnsprobe installed : 
-    GO111MODULE=on go get -v github.com/projectdiscovery/dnsprobe
-
+    
+Dnsprobe Install:
+```
+ GO111MODULE=on go get -v github.com/projectdiscovery/dnsprobe
+```
 You can install the required Python dependencies using pip:
 ```
 pip install -r requirements.txt
