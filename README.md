@@ -17,7 +17,7 @@ CIDRScope is a versatile command-line tool designed to help penetration testers 
 
     Python 3.6 or higher
     
-Dnsprobe Install:
+Dnsprobe Installation:
 ```
  GO111MODULE=on go get -v github.com/projectdiscovery/dnsprobe
 ```
