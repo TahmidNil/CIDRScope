@@ -37,14 +37,14 @@ cd CIDRScope
 <h4>Basic Command</h4>
 
 ```
-python cidr_scope.py
+python cidrscope.py
 ```
 <h2>Options</h2>
 
     -h, --help : Show the help message and available options.
     -o <output_file> : Specify a file to output the results.
-    -i : Option to input CIDR ranges manually.
-    -f <cidr_file> : Load CIDR ranges from a file.
+    -m : Option to input CIDR ranges manually.
+    -c <cidr_file> : Load CIDR ranges from a file.
     -s <subdomain_file> : Load subdomains from a file.
 
 <h2>Example</h2>
@@ -52,17 +52,17 @@ python cidr_scope.py
   <h4>1. Resolve subdomains and filter in-scope IPs:</h4>
   
 ```
-python cidr_scope.py -f range.txt -s subdomains.txt
+python cidrscope.py -c range.txt -s subdomains.txt
 ```
  <h4>2. Save the result to a file and view output on terminal:</h4>
  
 ```
-python cidr_scope.py -f range.txt -s subdomains.txt -o results.txt
+python cidrscope.py -c range.txt -s subdomains.txt -o results.txt
 ```
  <h4>3. Manually input CIDR ranges:</h4>
  
 ```
-python cidr_scope.py -i -s subdomains.txt
+python cidr_scope.py -m <CIDR_range> -s subdomains.txt
 ```
 <h2>Example Output</h2>
 
